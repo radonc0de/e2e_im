@@ -1,0 +1,7 @@
+<app-add-chat (emitter)="addChat($event)"></app-add-chat>
+
+<hr>
+
+<ul>
+        <li *ngFor="let chat of chats">{{chat.name + '-' + chat.group}}</li>
+</ul>
